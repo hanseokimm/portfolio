@@ -791,7 +791,7 @@ svg text {
 .contact-sec .img-box img {
     visibility: hidden;
 }
-.contact-sec .right-box br {
+.contact-sec .right-box > p > br {
     display: none;
 }
 .contact-sec .right-box h3 {
@@ -880,7 +880,7 @@ svg text {
     }
 }
 @media (max-width: 440px) {
-    .contact-sec .right-box br {
+    .contact-sec .right-box > p > br {
         display: block;
     }
 }
