@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* woff파일 제공 */
+@font-face {
+    font-family: "CJONLYONENEW";
+    font-weight: 300;
+    src: url(CJONLYONENEWbodyLight.woff) format(woff);
+}
+@font-face {
+    font-family: "CJONLYONENEW";
+    font-weight: 400;
+    src: url(CJONLYONENEWbodyRegular.woff) format(woff);
+}
+@font-face {
+    font-family: "CJONLYONENEW";
+    font-weight: 500;
+    src: url(CJONLYONENEWtitleMedium.woff) format(woff);
+}
+@font-face {
+    font-family: "CJONLYONENEW";
+    font-weight: 700;
+    src: url(CJONLYONENEWtitleBold.woff) format(woff);
+}

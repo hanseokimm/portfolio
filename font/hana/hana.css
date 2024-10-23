@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'hana';
+	font-weight: bold;
+	src: url('./Hana2B_.woff') format('woff');
+}
+@font-face {
+	font-family: 'hana';
+	font-weight: normal;
+	src: url('./Hana2M.woff') format('woff');
+}

@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/* woff파일 제공 */
+@font-face {
+    font-family: "Brush";
+    font-weight: 100;
+    src: url(Regular_Brush.woff) format(woff);
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* woff파일 제공 */
+@font-face {
+    font-family: "GmarketSans";
+    font-weight: 300;
+    src: url(GmarketSansLight.woff2) format(woff2);
+}
+@font-face {
+    font-family: "GmarketSans";
+    font-weight: 500;
+    src: url(GmarketSansMedium.woff2) format(woff2);
+}
+@font-face {
+    font-family: "GmarketSans";
+    font-weight: 800;
+    src: url(GmarketSansBold.woff2) format(woff2);
+}

@@ -1,0 +1,173 @@
+body {
+    font-family: "Pretendard", sans-serif;
+    background-color: #fff;
+}
+#wrap {
+    min-width: 360px;
+}
+.in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 200px 120px;
+}
+/* .img {
+    width: 250px;
+    height: 250px;
+    background: url(../novo/img/favicon_io/android-chrome-512x512.png) no-repeat center / 100%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.img:hover {
+    background-image: url(../img/mang_dance2.png);
+}
+.hover_txt {
+    margin: 0 auto;
+} */
+ .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+ }
+.main > a{
+    min-width: 261px;
+}
+.port {
+    min-width: 261px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: #153f76;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 100%;
+}
+.list > a {
+    width: 170px;
+    min-width: calc((100% - 90px) / 4);
+}
+.box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 0.5em 0 0.5em 1em;
+    background-color: #e8efff;
+}
+.box::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.novo::before {
+    background-image: url(../novo/img/favicon_io/favicon.ico);
+}
+.mmca::before {
+    background-image: url(../mmca/img/favicon.ico);
+}
+.tmoney::before {
+    background-image: url(../tmoney/img/favicon-32x32.png);
+}
+
+.elle::before {
+    background-image: url(../elle/img/ellevoice_fav.png);
+}
+.altools::before {
+    background-image: url(../altools/img/favicon-32x32.f4f4eaba.png);
+}
+.biko::before {
+    background-image: url(../biko/img/faviconV2.png);
+}
+.bokji::before {
+    background-image: url(../bokji/img/faviconV2.png);
+}
+.dotori::before {
+    background-image: url(../dotori/img/faviconFile_1713318844_0.png);
+}
+.kclub::before {
+    background-image: url(../k-club/img/favicon.ico);
+}
+.orlic::before {
+    background-image: url(../orlic/img/favicon_io/favicon.ico);
+}
+.hanafn::before {
+    background-image: url(../hanafn/img/favicon-32x32.png);
+}
+.semi::before {
+    background-image: url(../semi/img/favicon.ico);
+}
+.sunjin::before {
+    background-image: url(../sunjin/img/sunjin.ico);
+}
+.cjaicenter::before {
+    background-image: url(../cjaicenter/svg/favicon.svg);
+}
+.vogue::before {
+    background-image: url(../vogue/svg/vogue-favicon.ico);
+}
+.box::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/arrow-small-right.svg) no-repeat center / 100%;
+    margin-left: auto;
+    margin-right: 14px;
+}
+.box:hover::after {
+    transition: 0.3s;
+    transform: translateX(5px);
+}
+
+@media (max-width: 1480px) {
+    .list > a {
+        width: 120px;
+        min-width: calc((100% - 60px) / 3);
+    }
+}
+@media (max-width: 1162px) {
+    .in {
+        padding: 20px 80px;
+    }
+    /* .img {
+        width: 220px;
+        height: 220px;
+    } */
+    .list > a {
+        width: 70px;
+        min-width: calc((100% - 30px) / 2);
+    }
+}
+@media (max-width: 765px) {
+    .in {
+        padding: 20px 20px;
+    }
+    /* .img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+    } */
+    .list {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .list a {
+        width: 100%;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,78 @@
+header {
+    position: fixed;
+    width: 100%;
+    padding: 0 20px;
+    color: var(--point);
+    font-size: 1.6rem;
+    font-weight: 500;
+    z-index: 100;
+    transition: .3s;
+}
+header.active {
+    background-color: rgba(21, 63, 118, 1);
+    color: #fff;
+}
+header.active .ham-btn img {
+    content: url(../img/menu_w.png);
+}
+.h-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.h-menu {
+    display: flex;
+    gap: 20px;
+}
+.ham-btn {
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+
+
+.m-wrap {
+    position: fixed;
+    right: -100%;
+    background-color: #fff;
+    width: 340px;
+    height: 100dvh;
+    z-index: 600;
+    transition: .3s;
+    opacity: 0;
+}
+.m-wrap.active {
+    opacity: 1;
+    right: 0;
+}
+.m-wrap .m-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    padding-right: 10px;
+}
+.m-wrap img {
+    width: 40px;
+    height: 40px;
+}
+.m-wrap .m-menu {
+    color: var(--point);
+    font-size: 2.0rem;
+    font-weight: 500;
+    padding: 20px 40px;
+}
+.m-wrap .m-menu li {
+    padding: 16px 0;
+}
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    .ham-btn {
+        display: block;
+    }
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* woff파일 제공 */
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 100;
+    src: url(Montserrat-Thin.woff) format(woff),
+         url(Montserrat-Thin.woff2) format(woff2);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 200;
+    src: url(Montserrat-ExtraLight.woff) format(woff),
+         url(Montserrat-ExtraLight.woff2) format(woff2);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 300;
+    src: url(Montserrat-Light.woff) format(woff),
+         url(Montserrat-Light.woff2) format(woff2);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    src: url(Montserrat-Regular.woff) format(woff),
+         url(Montserrat-Regular.woff2) format(woff2);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    src: url(Montserrat-Medium.woff) format(woff),
+         url(Montserrat-Medium.woff2) format(woff2);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 600;
+    src: url(Montserrat-SemiBold.woff) format(woff),
+         url(Montserrat-SemiBold.woff2) format(woff2);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 700;
+    src: url(Montserrat-Bold.woff) format(woff),
+         url(Montserrat-Bold.woff2) format(woff2);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 800;
+    src: url(Montserrat-ExtraBold.woff) format(woff),
+         url(Montserrat-ExtraBold.woff2) format(woff2);
+}
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 900;
+    src: url(Montserrat-Black.woff) format(woff),
+         url(Montserrat-Black.woff2) format(woff2);
+}

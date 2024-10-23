@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Vogue";
+  font-weight: 500;
+  src: url(./VogueAvantGarde-Medium.woff) format(woff);
+}
+
+@font-face {
+  font-family: "Vogue";
+  font-weight: 600;
+  src: url(./VogueAvantGarde-DemiBold.woff) format(woff);
+}
+
+@font-face {
+  font-family: "Vogue";
+  font-weight: 700;
+  src: url(./VogueAvantGarde-Bold.woff) format(woff);
+}
