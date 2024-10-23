@@ -753,7 +753,7 @@ svg text {
 .contact-sec {
     position: relative;
     height: 100dvh;
-    background-color: rgba(21, 63, 118, 0.03);
+    background: url(../img/contact-bg.jpg) no-repeat center / cover;
 }
 .contact-sec::after {
     content: "";
