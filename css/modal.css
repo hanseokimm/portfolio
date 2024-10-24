@@ -15,7 +15,7 @@
     position: absolute;
     left: 50%;
     top: 54%;
-    height: 750px;
+    height: 650px;
     padding: 40px 20px 80px;
     background-color: #fff;
     border-radius: 16px;
@@ -276,9 +276,6 @@
     }
 }
 @media (max-width: 768px) {
-    .modal-box {
-        height: 650px;
-    }
     .modal-box .top-box h2 {
         font-size: 2.8rem;
     }
